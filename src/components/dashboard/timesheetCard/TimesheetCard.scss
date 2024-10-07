@@ -1,3 +1,5 @@
+/** @format */
+
 .card-class {
   position: relative; // Ensures absolute positioning works correctly
   padding: 24px; // Adjust as needed for spacing
@@ -5,13 +7,12 @@
 }
 
 .info-title {
-  margin-bottom: 16px; // Ensure consistent space below the title
+  margin-bottom: 46px !important; // Ensure consistent space below the title
 }
 
 .absolute {
   position: absolute; // Allows for the positioning of buttons
 }
-
 
 .right-4 {
   right: 16px; // Space from the right of the card
