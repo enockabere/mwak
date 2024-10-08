@@ -1,11 +1,12 @@
 /** @format */
+
 import {Outlet} from "react-router-dom"
-const MainLayout = () => {
+const AuthenticationLayout = () => {
   return (
-    <main className='page-wrapper'>
+    <main className='container-fluid'>
       <Outlet />
     </main>
   )
 }
 
-export default MainLayout
+export default AuthenticationLayout
